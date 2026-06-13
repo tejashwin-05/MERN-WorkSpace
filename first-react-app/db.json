@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": "efa9",
+      "username": "teja",
+      "password": "teja",
+      "email": "teja123@gmail.com",
+      "dob": "2024-12-25"
+    },
+    {
+      "id": "f15a",
+      "username": "ashwin",
+      "password": "ashwin",
+      "email": "ashwin111@gmail.com",
+      "dob": "2024-12-03"
+    },
+    {
+      "id": "b280",
+      "username": "ravi",
+      "password": "ravi",
+      "email": "rav1111@gmail.com",
+      "dob": "2024-12-23"
+    }
+  ]
+}

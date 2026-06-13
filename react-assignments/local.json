@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": "2952",
+      "username": "ravi",
+      "password": "ravi",
+      "email": "ravi@gmail.com",
+      "dob": "2025-01-14"
+    },
+    {
+      "id": "9110",
+      "username": "ramu",
+      "password": "ramu",
+      "email": "ramu@gmail.com",
+      "dob": "2025-01-29"
+    }
+  ]
+}

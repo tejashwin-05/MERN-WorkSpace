@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* reset */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+  padding: 30px 400px;
+  background-color: white;
+}
+
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none;
+  /* padding: 20px 50px; */
+}
+
+body{
+  
+  background-image: url(https://images4.alphacoders.com/498/49854.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Raleway", sans-serif;
+  
+}
+
+section{
+  display: flex;
+}
+
+main {
+  margin: 120px 60px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    gap:30px;
+}
+
+.item {
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 0px 10px grey;
+  border-radius: 10px;
+  
+}
+
+.item img{
+  width: 150px;
+  border-radius: 50%;
+}
+
+.item h4{
+  display: inline;
+  padding: 2px;
+  border: 2px solid white;
+  border-radius: 10px;
+  /* background-color: rgb(33, 136, 221); */
+  color: white;
+}
+
+.fas{
+
+  background-color: blueviolet;
+}
+
+#one{
+  background-color: rgb(52, 144, 215);
+}
+
+#two{
+  background-color: rgb(245, 216, 49);
+}

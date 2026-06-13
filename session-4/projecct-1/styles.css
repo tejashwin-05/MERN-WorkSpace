@@ -1,0 +1,26 @@
+a{
+    font-size: 50px;
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+a:visited{
+    color: chocolate;
+
+}
+
+
+a:focus{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: deeppink;
+}
+
+a:hover{
+    color: aqua;
+    font-size: 60px;
+}
+
+a:active{
+    color: cyan;
+}
+

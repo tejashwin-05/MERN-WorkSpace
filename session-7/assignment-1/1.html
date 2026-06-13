@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+   <!-- form -->
+   <form>
+    <h1>Sign up</h1>
+    <br><br>
+     <!-- Name -->
+     <div>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="fullname">
+        
+            
+        
+    </div>
+     <br><br>
+    <!-- email -->
+    <div>
+        <label for="email">email:</label>
+        <input type="email" name="email" id="email" placeholder="gmail id">
+    </div>
+     <br><br>
+    <!-- password -->
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="8 characters" minlength="8">
+    </div>
+    <br><br>
+
+    <!-- Confirm Password -->
+    <div>
+        <label for="cp">Confirm Password:</label>
+        <input type="password" name="cp" id="cp" placeholder="8 characters" minlength="8">
+    </div>
+    <br><br>
+
+    <!-- Date of Birth -->
+    <div>
+        <label for="dob">Date Of Birth:</label>
+        <input type="date" name="dob" id="dob">
+    </div>
+    <br><br>
+
+    <!-- Gender -->
+    <div>
+        <label id="gp">Gender:</label>
+        <!-- male -->
+        <div class="tej">
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+        </div>
+        <!-- female -->
+        <div class="tej">
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        </div>
+        <!-- others -->
+        <div class="tej">
+            <input type="radio" name="gender" id="others">
+            <label for="others">Others</label>
+        </div>
+    </div>
+    <br><br>
+
+    <!-- Photo -->
+    <div>
+        <label for="file">Insert your photo:</label>
+        <input type="file" name="file" id="file">
+    </div>
+    <br><br>
+
+    <!-- resume -->
+    <div>
+        <label for="res">Insert your resume:</label>
+        <input type="file" name="res" id="res">
+    </div>
+    <br><br>
+
+    <!-- Security questions -->
+    <div>
+        <label for="section">Security Question:</label>
+        <select name="section" id="section">
+            <option value="" disabled selected>select</option>
+            <option value="aimla">Aiml-A</option>
+            <option value="aimlb">Aiml-B</option>
+            <option value="aimlc">Aiml-c</option>
+        </select>
+    </div>
+
+    <!-- feedback -->
+    <div>
+        <textarea name="feedback" id="fd" rows="5" cols="30"></textarea>
+    </div>
+    <br><br>
+
+    <!-- checkbox -->
+    <div>
+        <input type="checkbox" name="itc" id="itc">
+        <label for="itc">I agree terms and conditions</label>
+    </div>
+
+    <!-- submit button -->
+    <button type="submit">Register</button>
+   </form>
+</body>
+</html>

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+body{
+    background-color: #EB2830;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 80px 305px 305px;
+    column-gap: 5px;
+    
+}
+
+.item1{
+    grid-column: 1 / 4;
+    background-color: white;
+}
+
+.item2{
+    grid-column: 1 / 4;
+    background-color: #EB2830;
+    
+}
+
+/* .item3{
+    grid-column: 3 / 4;
+    background-color: rgb(235, 56, 56);
+
+} */
+
+.item4{
+    grid-column: 1 / 2;
+    background-color: rgb(113, 17, 17);
+    column-gap: 5px;
+
+}
+
+.item5{
+    grid-column: 2 / 3;
+    background-color: rgb(113, 17, 17);
+    column-gap: 5px;
+}
+
+.item6{
+    grid-column: 3 / 4;
+    background-color: rgb(113, 17, 17);
+}
+
+h2{
+    color: red;
+    margin-top: 24px;
+    margin-left: 70px;
+    
+}
+
+h1{
+    margin-top: 30px;
+    margin-left: 70px;
+    font-size: 3rem;
+    color: white;
+}
+
+.two{
+    margin-top: 30px;
+    margin-left: 70px;
+    color: white;
+    font-size: 1.4rem;
+}
+
+p{
+    margin-left: 50px;
+    margin-top: 40px;
+    color: rgb(234, 193, 135);
+}
+
+h3{
+    margin-left: 50px;
+    margin-top: 50px;
+    color: white;
+}
+
+img{
+    
+    float: right;
+    margin-right: 200px;
+}

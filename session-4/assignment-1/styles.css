@@ -1,0 +1,39 @@
+img{
+    width: 200px;
+    padding-top: 50px;
+    float: left;
+}
+
+#first{
+    padding-top: 50px;
+    padding-left: 220px;
+    width: 400px;
+}
+
+div{
+    padding-left: 200px;
+}
+
+span{
+    color: darkred;
+}
+
+#sec{
+    color: red;
+}
+
+body{
+    background-color: rgb(203, 219, 154)
+}
+
+h1{
+   font-family: fantasy;
+   letter-spacing: 1px;
+   font-weight: 350px;
+}
+
+h2{
+    font-family: fantasy;
+   letter-spacing: 1px;
+   font-weight: 350px;
+}

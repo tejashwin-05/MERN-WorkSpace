@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(100, 100, 235);
+   
+   
+}
+
+h1{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-left: 600px;
+}
+#fir{
+    float: left;
+}
+
+#sec{
+    float: right;
+}
+
+#thi{
+    padding-left: 125px;
+}
+
+p{
+    color: white;
+    font-family: serif;
+    font-size: 20px;
+}

@@ -1,0 +1,36 @@
+get http://localhost:6000/user-api/users
+
+###post request to create users(user registration)
+post http://localhost:6000/user-api/user
+Content-Type: application/json
+
+{
+    "username":"bhanu",
+    "password":"bhanu",
+    "city":"hyderabad",
+    "age":25
+}
+
+###post request to user login(user authentication)
+post http://localhost:6000/user-api/login
+Content-Type: application/json
+
+{
+    "username":"bhanu",
+    "password":"bhanu"
+}
+
+###put request to create users
+put http://localhost:6000/user-api/user
+Content-Type: application/json
+
+{
+    "_id": "676bda87cc117546ae253603",
+    "name":"bhanu",
+    "age":35,
+    "email":"bhanu@mail.com"
+    
+}
+
+###delete user
+delete http://localhost:6000/user-api/user/676bda87cc117546ae253603

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* reset */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+
+body{
+    background-color: rgb(237, 208, 142);
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 100px 50px
+
+}
+    
+
+
+.item{
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+    background-color: rgb(215, 117, 134);
+    padding: 20px;
+}
+
+img{
+    max-width: 150px;
+    width: 100%;
+    border-radius: 50%; 
+    position: relative;
+    right: 25px;
+}
+
+p{
+    color: white;
+}
+
+h1{
+    color: yellow;
+}
+
+.linkedin{
+    max-width: 50px;
+    width: 100%;
+    position: relative;
+    bottom: 150px;
+    left: 170px;
+
+}
+
+.fbicon{
+    max-width: 50px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    left: 8px;
+    
+}
+
+/* header{
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    
+} */
+
